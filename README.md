@@ -3,7 +3,7 @@ This is the project structure I came up with and use mostly on my personal GOLan
 
 #### Contributing workflow
 
-Here’s how we suggest you go about proposing a change to this project:
+Here’s how I suggest you go about proposing a change to this project:
 
 1. [Fork this project][fork] to your account.
 2. [Create a branch][branch] for the change you intend to make.
@@ -13,7 +13,7 @@ Here’s how we suggest you go about proposing a change to this project:
 Using the web-based interface to make changes is fine too, and will help you
 by automatically forking the project and prompting to send a pull request too.
 
-[fork]: https://help.github.com/articles/fork-a-repo/
+[fork]: https://github.com/FahdJamy/standard-structure-layout/fork-a-repo/
 [branch]: https://help.github.com/articles/creating-and-deleting-branches-within-your-repository
 [pr]: https://help.github.com/articles/using-pull-requests/
 

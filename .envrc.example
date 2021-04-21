@@ -1,0 +1,9 @@
+# This file is optional in your project.
+
+it is always important to add a .env.example file from which others would get to know the example env variables being
+used in the application.
+
+for example
+
+- export POSTGRES_PASSWORD=xxx xxx xxx
+- export POSTGRES_ROOT_PASSWORD=xxx xxx xxx

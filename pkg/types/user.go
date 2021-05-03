@@ -23,6 +23,10 @@ type UserController interface {
 	GetUsers(response http.ResponseWriter, request *http.Request)
 }
 
+type CustomPageController interface {
+	NotFound(response http.ResponseWriter, request *http.Request)
+}
+
 func (u User) ValidateData() error {
 	if u.Email == "" {
 		return errors.New("please provide a valid email address")

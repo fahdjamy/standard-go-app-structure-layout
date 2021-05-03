@@ -8,3 +8,6 @@ generate:
 
 test:
 	go test -race github.com/fahdjamy/standard-structure-layout/..
+
+run-dev:
+	#go build cmd/myapp/main.go -o bin/app && ./bin/app

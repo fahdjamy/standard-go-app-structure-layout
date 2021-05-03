@@ -1,4 +1,4 @@
-package myapp
+package main
 
 import (
 	"github.com/fahdjamy/standard-structure-layout/pkg/api/rest"
@@ -18,7 +18,7 @@ var (
 
 // Router setup
 func router() types.Router {
-	var muxRouter types.Router = http2.NewMuxRouter()
+	var muxRouter types.Router = http2.NewMuxRouter("/api/v1", "127.0.0.1:8080")
 	return muxRouter
 }
 

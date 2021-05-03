@@ -10,6 +10,7 @@ type Error struct {
 
 type Router interface {
 	Serve (port string)
+	NotFound (f func(w http.ResponseWriter, r *http.Request))
 	Get (uri string, f func(w http.ResponseWriter, r *http.Request))
 	Post (uri string, f func(w http.ResponseWriter, r *http.Request))
 }
